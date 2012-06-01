@@ -1,0 +1,2 @@
+#!/bin/sh
+pandoc -s -S -i -t dzslides --mathjax --template dzslides.tpl knitr-RStudio-2012.md -o knitr-RStudio-2012.html
