@@ -1,0 +1,28 @@
+Set up cache.
+
+```{r setup, include=FALSE}
+options(replace.assign=TRUE)
+opts_chunk$set(cache=TRUE, fig.width=6, fig.height=4)
+```
+
+This is a plot from **ggplot2**:
+
+```{r ggplot}
+library(ggplot2)
+p=qplot(carat, price, data = diamonds)
+p
+```
+
+Here are two plots:
+
+```{r two-plots}
+p + facet_grid(~color)
+p + geom_point(aes(color = cut))
+```
+
+Here are many plots:
+
+```{r animation, fig.show='animate', interval=.2, fig.height=6}
+library(animation)
+demo('Mandelbrot', package='animation', echo = FALSE)
+```
