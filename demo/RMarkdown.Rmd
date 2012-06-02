@@ -1,0 +1,74 @@
+R Markdown Demo
+===========================================
+
+This is a demo for using `R Markdown` files in RStudio.  To get started make a regular **Markdown** file (like this one) but give it the suffix .Rmd instead of .md--you can then compile the file into an attractive HTML page.
+
+For more information on Markdown see: http://en.wikipedia.org/wiki/Markdown
+
+Simple Code Chunks
+-------------------------------------------
+
+This demonstrates the embedding of short, simple code chunks within a markdown file.
+
+``` {r}
+## a simple calculator
+1+1+2
+## boring random numbers
+set.seed(123)
+rnorm(5)
+````
+
+
+Plotting
+------------------------------------------
+
+We can also produce plots:
+
+``` {r md-cars-scatter, message=FALSE, fig.width=8, fig.height=6}
+# create a simple ggplot
+library(ggplot2)
+qplot(hp, mpg, data=mtcars)+geom_smooth()
+````
+
+Longer Code Chunks
+-----------------------------------------
+
+``` {r}
+head(mtcars)
+summary(mtcars)
+```
+
+
+Equations
+-----------------------------------------
+
+This expression $latex \sqrt{3x-1}+(1+x)^2$ is an example of an inline equation.
+
+This is an example of a display equation:
+
+$$latex \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+$$
+
+More Formatting
+-----------------------------------------
+
+It's easy to create unordered lists:
+
+* Item 1
+* Item 2
+
+As well as ordered lists:
+
+1. Item 1
+2. Item 2
+3. Item 3
+
+A block quote fittingly enough about literate programming:
+
+> The literate programming paradigm, as conceived by Knuth, represents a move away from writing programs in the manner and order imposed by the computer, and instead enables programmers to develop programs in the order demanded by the logic and flow of their thoughts. Literate programs are written as an uninterrupted exposition of logic in an ordinary human language, much like the text of an essay, in which macros which hide abstractions and traditional source code are included.
+
+Hyperlinks can be either plain URLs or can be [linked](http://example.com) to phrases inline.
+
+
+
+

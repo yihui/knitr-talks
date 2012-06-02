@@ -1,4 +1,9 @@
 *.html
 *.md
+*.tex
+*.pdf
+*.log
+*.synctex.gz
 figure/
 cache/
+.Rproj.user

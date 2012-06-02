@@ -6,6 +6,83 @@
 options(width = 50, reindent.spaces = 2)
 ```
 
+# Reproducible Research with R
+
+- Single document containing analysis, code, and results
+
+- Sweave (included in R)
+
+    - Inspired by Donald Kunth’s Literate Programming
+    - Enables embedding R code into LaTeX documents
+
+- New tools
+
+    - Add powerful new capabilities to Sweave
+    - Make authoring easier and more productive
+    - Support publishing to the web
+
+# Prime Directive: Trustworthy Software
+
+*Those who receive the results of modern data analysis have limited opportunity to verify the results by direct observation. Users of the analysis have no option but to trust the analysis, and by extension the software that produced it.*
+
+*This places an obligation on all creators of software to program in such a way that the computations can be understood and trusted. This obligation I label the __Prime Directive__.*
+
+<br/>
+
+**Chambers, Software for Data Analysis: Programming with R**
+
+# Challenges
+
+- Extending Sweave with new features and new formats
+
+- Tools that support both content authoring and coding
+
+- Authoring documents with multiple representations
+
+- LaTeX is not easy to learn and use for everyone
+
+- Publishing to the web
+
+# R Markdown
+
+- Markdown is an easy to write plain text format for web authoring:
+    - Formatting akin to plain-text email
+    - Allows arbitrary HTML for complex formatting
+    - Many open-source implementations available
+
+- R Markdown is like Sweave for web pages rather than PDFs
+
+- Web improves accessibility, interactivity, and collaboration
+
+- Also possible to create standalone HTML files
+
+# The markdown Package
+
+This code produces an identical result to Knit HTML in RStudio (with no runtime dependency on RStudio):
+
+```{r knit-to-html, tidy=FALSE, eval=FALSE}
+   knit("foo.Rmd")
+   markdownToHTML("foo.md")
+   browseURL("foo.html")   
+```
+
+- Enables use of R Markdown with any editor or IDE
+
+- Wikis, blogs, and other content management systems
+
+- Scheduled batch generation of reports on a server
+
+# The knitr Package
+
+- Next-generation re-implementation of Sweave
+
+- Adds many features to Sweave including caching, syntax highlighting, code externalization, and new graphics capabilities
+
+- Very extensible design
+
+- Supports publishing to the web (R HTML and R Markdown)
+
+
 # Motivation (as a student and TA)
 
 I do homework, I grade homework, and I saw this:
