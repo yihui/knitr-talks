@@ -1,7 +1,12 @@
 
-TODO: Incorporate R HTML
-TODO: Incorporate output with no code
+Prep:
 
+- Packages: knitr, googleVis, rgl
+- Open:
+    - Browser with Presentation
+    - evince w/ knitr-minimal
+    - Browser with RPubs 
+    - Browser with googleVis as backup
 
 ## Demo: Orientation
 
@@ -9,6 +14,7 @@ TODO: Incorporate output with no code
     - Show knitr-minimal.Rnw
     - Show compiled PDF in evince
     - Show and explain relationship between Rnw and PDF
+    - Note that code is turned on here but can be turned off
 
 ## Demo: Sweave/knitr tools in RStudio
 
@@ -57,11 +63,13 @@ TODO: Incorporate output with no code
 - Show that same chunk oriented tools are available
 
 - Interactivity and JavaScript
-     - Show MathJax
+     - Show googleVis
+     - Show MathJax + Right click
      - Show right-click
-     - Show animate package
 
-- Show possibility of R HTML (have a populated demo file)
+- Show possibility of R HTML (use knitr-rhtml-minimal.Rhtml)
+     - Note chunks
+     - Knit HTML
 
 - Deployment
      - Stanadlone HTML file (email attachment, dropbox public folder, etc.)

@@ -1,0 +1,46 @@
+Dynamic Graphics with the googleVis Package
+========================================================
+
+Using the **[googleVis](http://cran.r-project.org/web/packages/googleVis/index.html)** package, dynamic tables, maps, and motion charts can be created to allow the reader to interact with the content. Note that *gvis* objects, by default, contain `<html>` and `<body>` tags which should be removed since Knit HTML does this already. Passing `'chart'` to the print function accomplishes this.
+
+<br>
+
+### Interactive Chart and Map
+
+```{r multiCharts, echo=TRUE, results='asis'}
+suppressPackageStartupMessages(library(googleVis))
+T <- gvisTable(Exports, 
+               options=list(width=200, height=280))
+G <- gvisGeoChart(Exports, locationvar="Country", colorvar="Profit",
+                options=list(width=360, height=280, dataMode='regions'))
+TG <- gvisMerge(T,G, horizontal=TRUE,
+                tableOptions="bgcolor=\"#CCCCCC\" cellspacing=10")
+
+print(TG, 'chart')
+```
+
+<br>
+
+### R and Google Maps
+
+```{r hurricaneAndrew, echo=TRUE, results='asis'}
+## Hurricane Andrew (1992) storm track with Google Maps
+AndrewMap <- gvisMap(Andrew, "LatLong" , "Tip", 
+                     options=list(showTip=TRUE, showLine=TRUE, enableScrollWheel=TRUE,
+                                  mapType='hybrid', useMapTypeControl=TRUE))
+
+print(AndrewMap, 'chart')
+```
+
+<br>
+
+### Dynamic Table
+
+``` {r populationTable, echo=TRUE, results='asis'}
+## Table with embedded links
+PopTable <- gvisTable(Population, options=list(width=600, height=300, page='enable'))
+
+print(PopTable, 'chart')
+```
+
+Return to [Using Markdown with RStudio](http://www.rstudio.org/docs/authoring/using_markdown)
