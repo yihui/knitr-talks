@@ -1,8 +1,8 @@
 Set up cache.
 
 ```{r setup, include=FALSE}
-options(replace.assign=TRUE)
-opts_chunk$set(cache=TRUE, fig.width=6, fig.height=4)
+# options(replace.assign=TRUE)
+opts_chunk$set(cache=TRUE, fig.width=5, fig.height=4)
 ```
 
 This is a plot from **ggplot2**:
