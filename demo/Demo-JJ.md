@@ -19,6 +19,7 @@ Prep:
 ## Demo: Sweave/knitr tools in RStudio
 
 - Not just coding but authoring
+    - Sweave.Rnw
     - Preview
     - TeX syntax and indentation
     - TeX formatting
@@ -63,7 +64,6 @@ Prep:
 - Show that same chunk oriented tools are available
 
 - Interactivity and JavaScript
-     - Show googleVis
      - Show MathJax + Right click
      - Show right-click
 
@@ -81,6 +81,7 @@ Prep:
      - Show published document on rpubs.com
      - Note comment stream; abilty to moderate
      - Show several example documents
+         - Highlight googleVis and interactivity
      
 
 

@@ -56,17 +56,6 @@ options(width = 50, reindent.spaces = 2)
 
 - Also possible to create standalone HTML files
 
-# The knitr Package
-
-- Next-generation re-implementation of Sweave
-
-- Adds many features to Sweave including caching, syntax highlighting, code externalization, and new graphics capabilities
-
-- Very extensible design
-
-- Supports publishing to the web (R HTML and R Markdown)
-
-
 # The markdown Package
 
 This code produces an identical result to Knit HTML in RStudio (with no run-time dependency on RStudio):
@@ -82,6 +71,17 @@ This code produces an identical result to Knit HTML in RStudio (with no run-time
 - Wikis, blogs, and other content management systems
 
 - Scheduled batch generation of reports on a server
+
+
+# The knitr Package
+
+- Next-generation re-implementation of Sweave
+
+- Adds many features to Sweave including caching, syntax highlighting, code externalization, and new graphics capabilities
+
+- Very extensible design
+
+- Supports publishing to the web (R HTML and R Markdown)
 
 
 # Motivation (as a student and TA)
