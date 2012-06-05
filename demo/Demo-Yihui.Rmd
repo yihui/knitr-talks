@@ -15,7 +15,7 @@ p
 
 Here are two plots:
 
-```{r two-plots}
+```{r two-plots, fig.show='hold'}
 p + facet_grid(~color)
 p + geom_point(aes(color = cut))
 ```
