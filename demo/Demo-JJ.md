@@ -1,13 +1,6 @@
 
 Prep:
 
-- Packages: knitr, googleVis, rgl
-- Open:
-    - Browser with Presentation
-    - evince w/ knitr-minimal
-    - Browser with RPubs 
-    - Browser with googleVis as backup
-
 ## Demo: Orientation
 
 - Simple document using LaTeX with embedded R
@@ -62,10 +55,6 @@ Prep:
      - Show markdown quick ref
 
 - Show that same chunk oriented tools are available
-
-- Interactivity and JavaScript
-     - Show MathJax + Right click
-     - Show right-click
 
 - Show possibility of R HTML (use knitr-rhtml-minimal.Rhtml)
      - Note chunks

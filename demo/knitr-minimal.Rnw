@@ -28,7 +28,6 @@ options(replace.assign=TRUE,width=90)
 
 \title{A Minimal Demo of knitr}
 
-
 \author{Yihui Xie}
 
 \maketitle

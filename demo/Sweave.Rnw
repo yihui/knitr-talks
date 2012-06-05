@@ -79,9 +79,6 @@ summary(out1)
 (for once we won't show the code chunk itself, look at \verb@foo.Rnw@
 if you want to see what the actual code chunk was).
 
-
-
-
 Figure~\ref{fig:one} (p.~\pageref{fig:one})
 is produced by the following code
 <<label=fig1plot,include=FALSE>>=
