@@ -50,7 +50,7 @@ options(width = 50, reindent.spaces = 2)
     - Allows arbitrary HTML for complex formatting
     - Many open-source implementations available
 
-- R Markdown is like Sweave for web pages rather than PDFs
+- R Markdown is similar to Sweave but creates web pages rather than PDFs
 
 - Web improves accessibility, interactivity, and collaboration
 
@@ -69,7 +69,7 @@ options(width = 50, reindent.spaces = 2)
 
 # The markdown Package
 
-This code produces an identical result to Knit HTML in RStudio (with no runtime dependency on RStudio):
+This code produces an identical result to Knit HTML in RStudio (with no run-time dependency on RStudio):
 
 ```{r knit-to-html, tidy=FALSE, eval=FALSE}
    knit("foo.Rmd")
