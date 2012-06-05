@@ -245,3 +245,6 @@ opts_chunk$set(tweet = TRUE)
 # IN CODE WE TRUST
 
 Questions and comments?
+
+- RStudio: <http://www.rstudio.org>
+- knitr: <http://yihui.name/knitr/>
