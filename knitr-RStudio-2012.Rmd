@@ -93,6 +93,7 @@ I do homework, I grade homework, and I saw this:
 # Principle 1: Beautiful output by default
 
 - code highlighting (package **highlight**)
+    - carefully designed default themes
     - hundreds of themes
 - reformat code for lazy users (package **formatR**)
 
@@ -119,7 +120,6 @@ for(k in 1:10){j=cos(sin(k)*k^2)+3;print(j-5)}
 - running **knitr** gives you whatever you see in a normal R session
 - `qplot(carat, price, data = diamonds)` just works; no need `print()`
 - if your code produces two plots, you get two in the output
-    - Sweave gives you one unless you use dark voodoo
 - what if you have 50 plots? (demo)
 
 # Principle 3: Focus on R programming
@@ -182,7 +182,7 @@ LaTeX, HTML, Markdown and reStructuredText have been supported, and it is straig
 # Principle 7: Do not scare beginners
 
 - you get reasonable output even if you do not set any options; just `knit()` it (convention over configuration)
-- if you only have an R script, you can still do a report: `stitch()`
+- if you only have an R script, you can still do a report: `stitch()` or `silk()`
 - if clicking a button works, click it
     - RStudio
     - LyX (demo)
@@ -211,7 +211,7 @@ Contributions needed!
     g = tableGrob(head(iris, 4))
     @
     
-    <<draw-table, dev='png', dpi=150, fig.width=convertWidth(grobWidth(g), "in", value=TRUE), fig.height=convertHeight(grobHeight(g), "in", value=TRUE)>>=
+    <<draw-table, fig.width=convertWidth(grobWidth(g), "in", value=TRUE), fig.height=convertHeight(grobHeight(g), "in", value=TRUE), dev='png', dpi=150>>=
     grid.draw(g)
     @
 
@@ -238,8 +238,9 @@ opts_chunk$set(tweet = TRUE)
 - make reproducible research enjoyable first (new tools to hide gory details)
 - all people do homework assignments before they do research, so make your homework reproducible first
 - build extensible tools to satisfy both beginners and advanced users
-- **knitr** allows any input languages and any output formats; attention to details
+- **knitr** allows any input languages and any output formats
 - reproducible blogging, exams/solutions, books, web tutorials, ...
+- from reproducible reports to reproducible research
 
 # IN CODE WE TRUST
 
