@@ -1,5 +1,7 @@
 
-Prep:
+TODO: reduce coverage in main RStudio demo
+TODO: add a slide about RPubs
+
 
 ## Demo: Orientation
 
