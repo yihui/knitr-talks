@@ -118,7 +118,7 @@ for(k in 1:10){j=cos(sin(k)*k^2)+3;print(j-5)}
 # Principle 2: What you imagined is what you get
 
 - running **knitr** gives you whatever you see in a normal R session
-- `qplot(carat, price, data = diamonds)` just works; no need `print()`
+- `qplot(carat, price, data = diamonds)` just works; no need `print()` or `fig=TRUE`
 - if your code produces two plots, you get two in the output
 - what if you have 50 plots? (demo)
 
