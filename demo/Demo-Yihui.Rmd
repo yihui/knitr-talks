@@ -22,7 +22,7 @@ p + geom_point(aes(color = cut))
 
 Here are many plots:
 
-```{r animation, fig.show='animate', interval=.2, fig.height=6}
+```{r animation, fig.show='animate', interval=.2, fig.height=5}
 library(animation)
 demo('Mandelbrot', package='animation', echo = FALSE)
 ```
