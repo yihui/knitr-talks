@@ -183,10 +183,7 @@ for(k in 1:10){j=cos(sin(k)*k^2)+3;print(j-5)}
 
 # Principle 3: Focus on R programming
 
-- you `plot()` only; `cat('\\includegraphics{}')` or `dev.off()` is not your job
-    - **knitr** has all common graphical devices to save your plots into many formats; you should not manipulate a device in R code
-- LaTeX tricks should be avoided unless they are really smart
-    - `\setkeys{Gin}` is a terrible trick; you have `out.width` in **knitr** (e.g. `out.width = '.8\\textwidth'`)
+![](http://i.imgur.com/jrwbX.jpg)
 
 # Principle 4: Be sustainable
 
