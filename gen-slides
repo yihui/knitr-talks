@@ -1,2 +1,12 @@
-#!/bin/sh
-pandoc -s -S -i -t dzslides --mathjax --template dzslides.tpl knitr-RStudio-2012.md -o knitr-RStudio-2012.html
+#!/bin/bash
+
+if [ "$1" == "JJ" ]
+then
+  OUTPUT_FILE="knitr-RStudio-2012-JJ.html"
+else
+  EXTRA_ARGS="-i"
+  OUTPUT_FILE="knitr-RStudio-2012.html"
+fi
+
+pandoc -s -S $EXTRA_ARGS -t dzslides --mathjax --template dzslides.tpl knitr-RStudio-2012.md -o $OUTPUT_FILE
+
