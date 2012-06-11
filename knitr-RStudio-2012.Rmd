@@ -21,6 +21,17 @@ options(width = 50, reindent.spaces = 2)
     - Make authoring easier and more productive
     - Support publishing to the web
 
+# Why Reproducible Research?
+
+- Automatically regenerate documents when code, data, or assumptions change.
+
+- Eliminate transposition errors that occur when copying results into documents. 
+
+- Preserve contextual narrative about why analysis was performed in a certain fashion.
+
+- Documentation for the analytic and computational processes from which conclusions are drawn.
+
+
 # Prime Directive: Trustworthy Software
 
 *Those who receive the results of modern data analysis have limited opportunity to verify the results by direct observation. Users of the analysis have no option but to trust the analysis, and by extension the software that produced it.*
@@ -43,18 +54,45 @@ options(width = 50, reindent.spaces = 2)
 
 - Publishing to the web
 
+# New Tools
+
+- RStudio
+    - Productivity tools for Sweave / LaTeX
+
+- knitr
+    - Many enhancements to Sweave 
+    - Extensible design for new capabilities and formats
+
+- R Markdown
+     - Reproducible research for the web
+     - Integerated support in RStudio and knitr
+
+# Productivity Tools for Sweave / LaTeX
+
+- Multi-mode editor (R and TeX aware)
+    - Line by line R code execution
+    - TeX formatting and spell checking
+
+- One-click Compile PDF
+
+- Two-way sync between source and PDF (SyncTeX)
+
+- TeX error log parsing and navigation
+
+- Chunk navigation, execution, and code-completion
+
+
 # R Markdown
 
-- Markdown is an easy to write plain text format for web authoring:
-    - Formatting akin to plain-text email
+- What is Markdown?
+    - Easy to write plain text format for web authoring
     - Allows arbitrary HTML for complex formatting
-    - Many open-source implementations available
 
-- R Markdown is similar to Sweave but creates web pages rather than PDFs
-
-- Web improves accessibility, interactivity, and collaboration
-
-- Also possible to create standalone HTML files
+- What is R Markdown?
+    - Standard markdown parser (Sundown)
+    - Execution of R code chunks
+    - MathJax extensions for LaTeX and MathML equations
+    - [http://www.rstudio.org/docs/r_markdown](http://www.rstudio.org/docs/r_markdown)
 
 # The markdown Package
 
@@ -66,11 +104,32 @@ This code produces an identical result to Knit HTML in RStudio (with no run-time
    browseURL("foo.html")   
 ```
 
-- Enables use of R Markdown with any editor or IDE
+Enables use of R Markdown with any editor or IDE
 
-- Wikis, blogs, and other content management systems
+# Distributing R Markdown Documents
 
-- Scheduled batch generation of reports on a server
+- Standalone HTML files
+    - Embedded images (Base64 encoded)
+    - Send as email attachment
+    - Easy deployment to web server or Dropbox
+
+- Use the `markdown` package for custom publishing
+    - Many blogs and wikis accept markdown input
+    - Scheduled batch generation of reports on a server
+    
+- New services dedicated to R Markdown
+
+# RPubs: Easy Web Publishing for R
+
+- One-click publishing of R Markdown documents
+
+- Documents can contain arbitrary JavaScript
+
+- Moderated comment streams
+
+- Free for publicly accesible documents
+
+- Early preview: [http://rpubs.com](http://rpubs.com)
 
 
 # The knitr Package
@@ -81,7 +140,7 @@ This code produces an identical result to Knit HTML in RStudio (with no run-time
 
 - Very extensible design
 
-- Supports publishing to the web (R HTML and R Markdown)
+- Supports publishing to the web (R Markdown and R HTML)
 
 
 # Motivation (as a student and TA)

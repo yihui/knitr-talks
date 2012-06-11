@@ -1,7 +1,14 @@
 
-TODO: reduce coverage in main RStudio demo
-TODO: add a slide about RPubs
-
+##  Prep:
+  
+  - Slide deck in chrome
+  - knitr-Minimal.Rnw in editor
+  - knitr-Minimal.pdf in evince
+  - Run All for Sweave.Rnw (populate workspace)
+  - Sweave.Rnw in editor at line 68
+  - RMarkdown.Rmd in editor
+  - Consider maximizing viewers
+  - RPubs tabset: homepage, several sample documents
 
 ## Demo: Orientation
 
@@ -13,22 +20,17 @@ TODO: add a slide about RPubs
 
 ## Demo: Sweave/knitr tools in RStudio
 
-- Not just coding but authoring
+- R code execution
     - Sweave.Rnw
-    - Preview
+    - Line by line execution (from line 68 into plot)
+    - Chunk execution
+ 
+- Not just coding but authoring
     - TeX syntax and indentation
     - TeX formatting
     - Spell checking
     
-- R code execution
-    - Line by line execution (from line 68 into plot)
-    - Chunk execution
-    
-- Code chunks as first class entities
-    - Navigation
-    - Collapse and expand
-    - Insert chunk
-    - Chunk option completion
+- PDF Preview
 
 - SyncTeX
     - PDF to source: plot on page 3
@@ -42,6 +44,12 @@ TODO: add a slide about RPubs
     - Compile and navigate to error
     - Navigate into TeX error log
 
+- Code chunks as first class entities
+    - Navigation
+    - Collapse and expand
+    - Insert chunk
+    - Chunk option completion
+
 - Options/knitr
   - Show global option to use knitr
   - Note that this can be set globally, per-project, and per-file
@@ -50,29 +58,23 @@ TODO: add a slide about RPubs
 
 ## Demo: R Markdown in RStudio
 
-- Orientation
-     - Open Rmarkdown.Rmd file
-     - Knit HTML
-     - Go back through source and HTML files and explain the syntax
-     - Show markdown quick ref
-
+- Open Rmarkdown.Rmd file
+- Knit HTML
+- Go back through source and HTML files and explain the syntax
+- Show markdown quick ref
 - Show that same chunk oriented tools are available
 
-- Show possibility of R HTML (use knitr-rhtml-minimal.Rhtml)
-     - Note chunks
-     - Knit HTML
-
-- Deployment
-     - Stanadlone HTML file (email attachment, dropbox public folder, etc.)
-     - Integrate with blogs, wikis, and sites using markdown package
-     - RPubs.com
       
-- R Pubs
-     - Click Publish button from HTML preview
-     - Show published document on rpubs.com
-     - Note comment stream; abilty to moderate
-     - Show several example documents
-         - Highlight googleVis and interactivity
+## Demo: R Pubs
+
+- Click Publish button from HTML preview
+- Show published document on rpubs.com
+- Note comment stream; abilty to moderate
+- Show several example documents (from homepage?)
+    - http://rpubs.com/gallery/googleVis
+    
+
+
      
 
 
