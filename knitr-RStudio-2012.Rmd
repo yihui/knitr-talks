@@ -1,6 +1,6 @@
 % New Tools for Reproducible Research with R
 % JJ Allaire and Yihui Xie
-% 2012/06/05
+% 2012/06/14
 
 ```{r setup, include=FALSE}
 options(width = 50, reindent.spaces = 2)
