@@ -276,7 +276,7 @@ Contributions needed!
 Chunk hooks are functions associated with code chunks.
 
 ```{r tweet-hook, eval=FALSE, tidy=FALSE}
-knit_hooks$set(tweet = function(before, options, envir) {
+knit_hooks$set(lord = function(before, options, envir) {
   library(twitteR)
   # Authentication with OAuth here, then
   if (!before) {
@@ -286,7 +286,7 @@ knit_hooks$set(tweet = function(before, options, envir) {
   }
 })
 # enable the chunk hook
-opts_chunk$set(tweet = TRUE)
+opts_chunk$set(lord = TRUE)
 ```
 
 # Conclusions
