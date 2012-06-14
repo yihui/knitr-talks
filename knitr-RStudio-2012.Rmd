@@ -155,6 +155,7 @@ I do homework, I grade homework, and I saw this:
     - carefully designed default themes
     - hundreds of themes
 - reformat code for lazy users (package **formatR**)
+- plain text?
 
 # Code highlighting
 
