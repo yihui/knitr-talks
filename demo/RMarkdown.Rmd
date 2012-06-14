@@ -30,7 +30,7 @@ library(ggplot2)
 qplot(hp, mpg, data=mtcars)+geom_smooth()
 ````
 
-Longer Code Chunks
+More Code Chunks
 -----------------------------------------
 
 ``` {r}
@@ -42,11 +42,13 @@ summary(mtcars)
 Equations
 -----------------------------------------
 
-This expression $latex \sqrt{3x-1}+(1+x)^2$ is an example of an inline equation.
+This expression $\sqrt{3x-1}+(1+x)^2$ is an example of an inline equation.
 
 This is an example of a display equation:
 
-$$latex \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+$$ 
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq 
+\left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 $$
 
 More Formatting

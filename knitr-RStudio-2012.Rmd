@@ -12,7 +12,7 @@ options(width = 50, reindent.spaces = 2)
 
 - Sweave (included in R)
 
-    - Inspired by Donald Kunth’s Literate Programming
+    - Created by Friedrich Leisch in 2002
     - Enables embedding R code into LaTeX documents
 
 - New tools
@@ -70,6 +70,7 @@ options(width = 50, reindent.spaces = 2)
 # Productivity Tools for Sweave / LaTeX
 
 - Multi-mode editor (R and TeX aware)
+
     - Line by line R code execution
     - TeX formatting and spell checking
 
@@ -117,7 +118,7 @@ Enables use of R Markdown with any editor or IDE
     - Many blogs and wikis accept markdown input
     - Scheduled batch generation of reports on a server
     
-- New services dedicated to R Markdown
+- New services for publishing data analysis
 
 # RPubs: Easy Web Publishing for R
 
@@ -129,7 +130,7 @@ Enables use of R Markdown with any editor or IDE
 
 - Free for publicly accesible documents
 
-- Early preview: [http://rpubs.com](http://rpubs.com)
+- [http://www.rpubs.com](http://www.rpubs.com)
 
 
 # The knitr Package
