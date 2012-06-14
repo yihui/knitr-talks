@@ -43,19 +43,13 @@
 
 - Trustworthy computing is at the heart of what R is about
 
-- Presentation of results is an assertion (unverifyable at a practical level) about the integrity of the process that yielded those results.
-
-- If our analysis is to be relied on, nd it is increasingly so, we have an obligation to work in a trustworthy fashion.
-
 - As R users, we all believe in the benefits of writing code to do data analysis because we can 
     - inspect it
     - repeat it
+    - share it
     - trust it
     
 - We need to accord the presentation of analysis and results the same respect, and that is what reproducible research is all about.
-
-
-
 
 
 
@@ -68,8 +62,6 @@
     - Chunk execution
  
 - Not just coding but authoring
-    - TeX syntax and indentation
-    - TeX formatting
     - Spell checking
     
 - PDF Preview
@@ -79,8 +71,8 @@
         - 7 page document with 265 lines of code
         - Navigation already a challenge, and doesn't scale
     - PDF to source: plot on page 3
-    - PDF to source: code on page 5
     - Source to PDF: content on page 149
+    - PDF to source: code on page 5
     - Source to PDF: cursor pos during preview (last page)
     
 - TeX error navigation

@@ -120,18 +120,6 @@ Enables use of R Markdown with any editor or IDE
     
 - New services for publishing data analysis
 
-# RPubs: Easy Web Publishing for R
-
-- One-click publishing of R Markdown documents
-
-- Documents can contain arbitrary JavaScript
-
-- Moderated comment streams
-
-- Free for publicly accesible documents
-
-- [http://www.rpubs.com](http://www.rpubs.com)
-
 
 # The knitr Package
 
