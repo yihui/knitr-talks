@@ -8,11 +8,13 @@
   - Sweave.Rnw in editor at line 68
   - RMarkdown.Rmd in editor
   - Consider maximizing viewers
-  - RPubs tabset: several sample documents
+  - RPubs tabset: several sample documents all scrolled to the top
+
 
 ## Reproducible Research with R
 
-- Most elemental level: single document containing analysis, code, and results
+- Our talk today is about doing reproducible research with R.
+- In R the term reproducible reseach is nearly synonymous with Sweave.
 - Been a core part of R for many years
 - Based on combining LaTeX with R
 - Today we want to talk about new tools that build on Sweave
@@ -55,6 +57,8 @@
 
 ## Demo: Sweave/knitr tools in RStudio
 
+- All tools work with both classic Sweave and knitr
+
 - R code execution
     - Sweave.Rnw
     - Line by line execution (line 68)
@@ -75,6 +79,8 @@
     - PDF to source: code on page 5
     - Source to PDF: cursor pos during preview (last page)
     
+****
+
 - TeX error navigation
     - Motivation: Tex Errors happen
         - This 7 page document has a 600 line TeX log
@@ -88,15 +94,7 @@
 - Code chunks as first class entities
     - Navigation
     - Collapse and expand
-    - Insert chunk
-    - Chunk option completion
-
-- Options/knitr
-  - Show global option to use knitr
-  - Note that this can be set globally, per-project, and per-file
-  - All of the features I just showed work with Sweave and knitr
-
-
+   
 ## Demo: R Markdown in RStudio
 
 - Open Rmarkdown.Rmd file

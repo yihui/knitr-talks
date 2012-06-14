@@ -42,18 +42,6 @@ options(width = 50, reindent.spaces = 2)
 
 **Chambers, Software for Data Analysis: Programming with R**
 
-# Challenges
-
-- Extending Sweave with new features and new formats
-
-- Tools that support both content authoring and coding
-
-- Authoring documents with multiple representations
-
-- LaTeX is not easy to learn and use for everyone
-
-- Publishing to the web
-
 # New Tools
 
 - RStudio
