@@ -238,7 +238,7 @@ LaTeX, HTML, Markdown and reStructuredText have been supported, and it is straig
 # Principle 7: Do not scare beginners
 
 - you get reasonable output even if you do not set any options; just `knit()` it (convention over configuration)
-- if you only have an R script, you can still do a report: `stitch()` or `card()`
+- if you only have an R script, you can still do a report: `stitch()` or `spin()`
 - if clicking a button works, click it
     - RStudio
     - LyX (demo)
