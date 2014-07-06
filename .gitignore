@@ -1,5 +1,6 @@
 *.html
-*.md
+useR2012/*.md
+useR2012/demo/*.md
 *.tex
 *.pdf
 *.log
