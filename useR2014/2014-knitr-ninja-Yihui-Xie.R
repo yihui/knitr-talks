@@ -41,7 +41,7 @@ delayedAssign('slide_2', show_image('images/KakashiLightningBlade.jpg'))
 show_html('<h1 style="font-size: 200px; text-align: center;">Knitr Ninja</h1>')
 # note: the plural form of ninja is still ninja
 
-# Ninja should strike for consiseness; these three speakers beat me in terms of
+# Ninja should strike for conciseness; these three speakers beat me in terms of
 # the length of the presentation title:
 #   - Katrin Grimm:    Scagnostics
 #   - Romain Francois: Rcpp11
